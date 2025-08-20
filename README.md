@@ -1,6 +1,13 @@
-# psalms_collection
+# selah
 
-A new Flutter project.
+
+# Names
+
+- Selah → pause, reflect, pray (simple, powerful)
+- Still Waters → peace + restoration (Psalm 23 imagery, calming mood)
+- Ever Near → God’s closeness in prayer (encouraging + intimate)
+- Quiet Hour → a set-apart time with God
+- Abide → dwelling in Christ (short, deeply biblical, strong prayer connotation)
 
 ## Getting Started
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:psalms_collection/pages/psalm_page.dart';
+import './psalm_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -21,9 +21,7 @@ class HomePage extends StatelessWidget {
                 leading: Icon(Icons.book),
                 title: Text(
                   "Psalm 1",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: TextStyle(fontWeight: FontWeight.bold),
                 ),
                 subtitle: Text("this is a small psalm summary"),
                 trailing: IconButton(
@@ -33,9 +31,7 @@ class HomePage extends StatelessWidget {
                       MaterialPageRoute(builder: (_) => const PsalmPage()),
                     );
                   },
-                  icon: Icon(
-                    Icons.chevron_right,
-                  ),
+                  icon: Icon(Icons.chevron_right),
                 ),
               ),
             ),
@@ -45,16 +41,12 @@ class HomePage extends StatelessWidget {
                 leading: Icon(Icons.book),
                 title: Text(
                   "Psalm 2",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                  ),
+                  style: TextStyle(fontWeight: FontWeight.bold),
                 ),
                 subtitle: Text("this is a small psalm summary"),
                 trailing: IconButton(
                   onPressed: () {},
-                  icon: Icon(
-                    Icons.chevron_right,
-                  ),
+                  icon: Icon(Icons.chevron_right),
                 ),
               ),
             ),
